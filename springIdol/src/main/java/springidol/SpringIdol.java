@@ -2,6 +2,15 @@ package springidol;
 
 public class SpringIdol implements TalentCompetition {
 	private Performer[] performers;
+	private Encore encore;
+
+	public Encore getEncore() {
+		return encore;
+	}
+
+	public void setEncore(Encore encore) {
+		this.encore = encore;
+	}
 
 	public SpringIdol() {
 	}
@@ -22,5 +31,9 @@ public class SpringIdol implements TalentCompetition {
 			performer.perform();
 			System.out.println("-----------------------");
 		}
+
+		System.out.println("Encore Performance");
+		encore.execute();
+
 	}
 }

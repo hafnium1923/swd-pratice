@@ -1,22 +1,24 @@
 package springidol;
 
+import java.util.Map;
 import java.util.Properties;
 
 public class OneManBand implements Performer {
-	private Properties instruments;
+	private Map<String, Instrument> instruments; /*타임을 map으로 변경*/
+
 
 	public OneManBand() {
 	}
 
-	public void setInstruments(Properties instruments) {
+	public void setInstruments(Map<String, Instrument> instruments)  {
 		this.instruments = instruments;
-	}
+	} /* setter도 map 에 맞게 변경*/
 
 	@Override
 	public void perform() throws PerformanceException {
-		for (Object element : instruments.keySet()) {
-			String key = (String) element;
-			System.out.println(key + " : " + instruments.getProperty(key));
+		for (String key : instruments.keySet()) {
+			System.out.print(key + " : " );
+			instruments.get(key).play(); /*map 타입에 맞게 객체 함수 실행*/
 		}
 	}
 

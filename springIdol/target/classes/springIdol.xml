@@ -9,11 +9,17 @@
 	<!-- ==================================================================== -->
 	<bean id="springIdol" class="springidol.SpringIdol">
 		<property name="performers">
+			<!--두명 이상의 가수 참여시키기-->
 			<list>
 				<ref bean="duke" />
 				<ref bean="kenny" />
 				<ref bean="hank" />
+				<ref bean="lena" />
+				<ref bean="suhyun"/>
 			</list>
+		</property>
+		<property name="encore">
+			<ref bean="encore"/>
 		</property>
 	</bean>
 
@@ -25,21 +31,51 @@
 		<constructor-arg ref="sonnet29" />
 	</bean>
 
+	<!-- kenny bean이 saxophone대신 guitor을 연주하도록 변경-->
 	<bean id="kenny" class="springidol.Instrumentalist">
 		<property name="song" value="Jingle Bells" />
-		<property name="instrument" ref="saxophone" />
+		<property name="instrument" ref="guitar" />
 	</bean>
 
+	<!--hank been이 동시에 연주하도록 변경 & map 형식으로 주입-->
 	<bean id="hank" class="springidol.OneManBand">
 		<property name="instruments">
-			<props>
-				<prop key="GUITAR">STRUM STRUM STRUM</prop>
-				<prop key="CYMBAL">CRASH CRASH CRASH</prop>
-				<prop key="HARMONICA">HUM HUM HUM</prop>
-			</props>
+			<map>
+				<entry key="GUITAR" value-ref="guitar"/>
+				<entry key="CYMBAL" value-ref="cymbal"/>
+				<entry key="HARMONICA" value-ref="harmonica"/>
+			</map>
 		</property>
 	</bean>
-	
+
+	<!--singer는 constructor을 이용해 DI 실행-->
+	<bean  id="lena" class="springidol.Singer">
+		<constructor-arg value="Lena Park"/>
+		<constructor-arg ref="song1" />
+	</bean>
+
+	<!--가수 B는 항상 A가 선택한 곡을 따라 부른다 SpEL-->
+	<bean id="suhyun" class="springidol.Singer">
+		<constructor-arg value="#{'Suhyun'}"/>
+		<constructor-arg value="#{lena.song}" />
+		<constructor-arg value="#{piano}"/>
+	</bean>
+
+	<!--Song은 setter을 이용헤 의존객체/값 주입 받음-->
+	<bean id="song1" class="springidol.Song">
+		<property name="artist" value="Adele" />
+		<property name="title" value="Someone Like You" />
+	</bean>
+
+	<bean id="song2" class="springidol.Song">
+		<property name="artist" value="NMIXX" />
+		<property name="title" value="Love Me Like This" />
+	</bean>
+
+	<bean id="encore" class="springidol.Encore">
+		<constructor-arg ref="lena"/>
+	</bean>
+
 	<bean id="sonnet29" class="springidol.Sonnet29" />
 	
 	<!-- ==================================================================== -->
@@ -49,5 +85,6 @@
 	<bean id="cymbal" class="springidol.Cymbal" />
 	<bean id="guitar" class="springidol.Guitar" />
 	<bean id="saxophone" class="springidol.Saxophone" />
+	<bean id="piano" class="springidol.Piano"/>
 
 </beans>

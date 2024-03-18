@@ -5,63 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a47c5c92-b7b1-4d62-979f-f22708ef77e9" name="Changes" comment="2주차 실습 문제">
-      <change afterPath="$PROJECT_DIR$/springIdol/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.settings/org.springframework.ide.eclipse.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/.springBeans" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Cymbal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Harmonica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Instrumentalist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Juggler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/OneManBand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/PerformanceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Performer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Poem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/PoeticJuggler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Saxophone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Sonnet29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/SpringIdol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/TalentCompetition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/main/SpringIdolMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/resources/class-diagram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/resources/class-diagram.ucls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/src/main/resources/springIdol.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/class-diagram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/class-diagram.ucls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springIdol.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/Cymbal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/Guitar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/Harmonica.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/Instrument.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/Instrumentalist.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/Juggler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/OneManBand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/PerformanceException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/Performer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/Poem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/PoeticJuggler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/Saxophone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/Sonnet29.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/SpringIdol.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/TalentCompetition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springIdol/target/classes/springidol/main/SpringIdolMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Piano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol/src/main/java/springidol/OneManBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/OneManBand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol/src/main/resources/springIdol.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol/src/main/resources/springIdol.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,9 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2dZSjLyUtYMtOO1eI9teSlqvAi5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -83,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.SpringIdolMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -91,10 +53,28 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="swd-pratice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="swd-pratice" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -110,8 +90,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710214241924</updated>
-      <workItem from="1710214243146" duration="572000" />
+      <workItem from="1710214243146" duration="2816000" />
+      <workItem from="1710231882575" duration="5000" />
+      <workItem from="1710744634221" duration="6969000" />
     </task>
+    <task id="LOCAL-00001" summary="2주차 실습 문제">
+      <option name="closed" value="true" />
+      <created>1710214817486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710214817486</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2주차 실습 문제">
+      <option name="closed" value="true" />
+      <created>1710215158708</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710215158708</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

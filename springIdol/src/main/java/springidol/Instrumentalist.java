@@ -6,7 +6,12 @@ public class Instrumentalist implements Performer {
 
 	public Instrumentalist() {
 	}
-	
+
+	public Instrumentalist(String song, Instrument instrument) {
+		this.song = song;
+		this.instrument = instrument;
+	} /*생성자 방식 의존관계 설정*/
+
 	public void setSong(String song) {
 		this.song = song;
 	}
@@ -14,6 +19,7 @@ public class Instrumentalist implements Performer {
 	public void setInstrument(Instrument instrument) {
 		this.instrument = instrument;
 	}
+
 
 	@Override
 	public void perform() throws PerformanceException {
