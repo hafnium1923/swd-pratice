@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 //또는 @Named("kenny")
 public class Instrumentalist implements Performer {
 	
-	@Value("Jingle Bells")
+	@Value("Jingle Bells") //song에는 Jingle Bells가 들어감
 	private String song;
 	
 	@Autowired

@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a47c5c92-b7b1-4d62-979f-f22708ef77e9" name="Changes" comment="2주차 실습 과제 구현 완료">
-      <change beforePath="$PROJECT_DIR$/springIdol/src/main/java/springidol/SpringIdol.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol/src/main/java/springidol/SpringIdol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springIdol2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springIdol2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springIdol2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springIdol2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springIdol2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Instrumentalist.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Instrumentalist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/javaconf1/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/javaconf1/SpringConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/songjieun/Documents/GitHub/backend/swd-pratice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,6 +99,7 @@
       <workItem from="1710231882575" duration="5000" />
       <workItem from="1710744634221" duration="6969000" />
       <workItem from="1710751699737" duration="897000" />
+      <workItem from="1710812858897" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="2주차 실습 문제">
       <option name="closed" value="true" />

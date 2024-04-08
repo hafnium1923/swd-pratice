@@ -1,11 +1,13 @@
 package springidol.javaconf1;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import springidol.Guitar;
 import springidol.Instrument;
 import springidol.Instrumentalist;
 import springidol.OneManBand;
@@ -14,6 +16,7 @@ import springidol.Piano;
 import springidol.Poem;
 import springidol.PoeticJuggler;
 import springidol.Saxophone;
+import springidol.Singer;
 import springidol.Sonnet29;
 import springidol.SpringIdol;
 
@@ -28,7 +31,11 @@ public class SpringConfig {
 	public Piano piano() {	    
 		return new Piano();		
 	}
-		
+
+	@Bean
+	public Guitar guitar() {
+		return new Guitar();
+	}
 	@Bean
 	public Poem sonnet29() {
 		return new Sonnet29();
@@ -41,9 +48,12 @@ public class SpringConfig {
 	
 	@Bean(name="kenny")				// name 속성을 통해 bean ID 지정 가능 
 	public Instrumentalist instr() {
-		return null;
+		Instrumentalist instr = new Instrumentalist();
+		instr.setSong("Jingle Bells");
+		instr.setInstrument(guitar());
+		return instr;
 	} 
-	
+
 	@Bean		
 	public OneManBand hank() {
 		Map<String, Instrument> instrMap = new HashMap<String, Instrument>();
@@ -56,7 +66,11 @@ public class SpringConfig {
 	
 	@Bean
 	public SpringIdol springIdol() {
-		return null;		
+		Performer[] performers = new Performer[]{duke(), instr(), hank()};
+		SpringIdol s = new SpringIdol();
+		s.setPerformers(performers);
+
+		return s;
 	}
 
 }
